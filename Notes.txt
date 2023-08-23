@@ -1,0 +1,11 @@
+Write a note about what you found interesting about the similarities between cat, monkey and banana and think of an example of your own:
+
+The interesting aspect about the similarities between "cat," "monkey," and "banana" lies in the model's ability to capture semantic relationships. When using the en_core_web_md model from spaCy to measure the similarity between these words, we observe that the model assigns higher similarity scores to words that share common characteristics or associations.
+
+Example:
+
+Consider the words "sun" and "beach." Although these words are not directly related in terms of their linguistic structure, the model might assign a relatively high similarity score to them. This is because the model has likely learned from its training data that the word "sun" is often associated with "beach" due to the common context of sunny days at the beach. People often visit the beach to enjoy the sun, so the model recognizes this strong real-world association, leading to a higher similarity score.
+
+Run the example file with the simpler language model ‘en_core_web_sm’ and write a note on what you notice is different from the model 'en_core_web_md':
+
+the 'en_core_web_md' model tends to capture subtler semantic relationships and provides more contextually rich word vectors, resulting in more accurate and nuanced results for tasks like similarity measurement.
